@@ -15,9 +15,6 @@ def validar_contrasena(contrasena):
     if not any(r"[!@#$%^&*(),.?\":{}|<>]", contrasena):
         return "¡Error! La contraseña debe contener al menos un carácter especial."
     return "OK"
-    
-# Combinacion directa de las condiciones
-if(contraseña_1 == contraseña_2) and (len(contraseña_1)>= 8) :
-    print("¡contraseña creada exitosamente!")
 
 # fin del del codigo
+
