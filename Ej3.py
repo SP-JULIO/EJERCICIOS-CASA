@@ -16,4 +16,6 @@ elif len (contraseña_1) < 8 :
 
 else:
     # Si no son iguales y la longitud es >= 8, este es el unico caso restante
-    print("¡Error! Las contraseñas no cumple con los requisitos debe de tener almenos mayusculas, minusculas, numeros y caracteres")
+    print("¡Error! Las contraseñas no cumple con los requisitos debe de tener al menos mayusculas, minusculas, numeros y caracteres")
+
+# fin del codigo
